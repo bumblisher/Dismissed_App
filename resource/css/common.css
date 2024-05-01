@@ -31,15 +31,15 @@ section{box-sizing: border-box;}
 .main header .rt .btn_cart{background: url(../images/ico_cart_w.svg) no-repeat center;}
 
 .main .main_top{padding: 10px 20px 56px;background: #00CF9D}
-.main_top .list_menu{margin: 0 -20px;padding:8px 20px}
-.main_top .list_menu li{border-color:transparent}
-.main_top .list_menu li.icon a{padding-left: 8px;}
-.main_top .list_menu li.icon a::before{content: '';width: 24px;height: 24px;display: inline-block;margin-right: 8px;opacity: 0.6;}
-.main_top .list_menu li.icon a.on::before{opacity: 1;}
-.main_top .list_menu li.icon:nth-child(1) a::before{background: url(../images/ico_listmenu01.png) no-repeat center;background-size: 24px;}
-.main_top .list_menu li.icon:nth-child(2) a::before{background: url(../images/ico_listmenu02.png) no-repeat center;background-size: 24px;}
-.main_top .list_menu li.icon:nth-child(3) a::before{background: url(../images/ico_listmenu03.png) no-repeat center;background-size: 24px;}
-.main_top .list_menu li.icon:nth-child(4) a::before{background: url(../images/ico_listmenu04.png) no-repeat center;background-size: 24px;}
+.main .list_menu{margin: 0 -20px;padding:8px 20px}
+.main .list_menu li{border-color:transparent}
+.main .list_menu li.icon a{padding-left: 8px;}
+.main .list_menu li.icon a::before{content: '';width: 24px;height: 24px;display: inline-block;margin-right: 8px;opacity: 0.6;}
+.main .list_menu li.icon a.on::before{opacity: 1;}
+.main .list_menu li.icon:nth-child(1) a::before{background: url(../images/ico_listmenu01.png) no-repeat center;background-size: 24px;}
+.main .list_menu li.icon:nth-child(2) a::before{background: url(../images/ico_listmenu02.png) no-repeat center;background-size: 24px;}
+.main .list_menu li.icon:nth-child(3) a::before{background: url(../images/ico_listmenu03.png) no-repeat center;background-size: 24px;}
+.main .list_menu li.icon:nth-child(4) a::before{background: url(../images/ico_listmenu04.png) no-repeat center;background-size: 24px;}
 
 .main_top .main_sch{display: flex;align-items: center;margin-top: 14px;height: 48px;background: #fff;border-radius: 24px;padding:12px 16px;box-sizing: border-box;}
 .main_top .main_sch input{height: 24px;color:#212121;font-size: 16px;flex:1;}
