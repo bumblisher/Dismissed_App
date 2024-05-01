@@ -35,7 +35,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px}
 .main .list_menu li{border-color:transparent}
 .main .list_menu li.icon a{padding-left: 8px;}
 .main .list_menu li.icon a::before{content: '';width: 24px;height: 24px;display: inline-block;margin-right: 8px;opacity: 0.6;}
-.main .list_menu li.icon a.on::before{opacity: 1;}
+.main .list_menu li.icon.on a::before{opacity: 1;}
 .main .list_menu li.icon:nth-child(1) a::before{background: url(../images/ico_listmenu01.png) no-repeat center;background-size: 24px;}
 .main .list_menu li.icon:nth-child(2) a::before{background: url(../images/ico_listmenu02.png) no-repeat center;background-size: 24px;}
 .main .list_menu li.icon:nth-child(3) a::before{background: url(../images/ico_listmenu03.png) no-repeat center;background-size: 24px;}
