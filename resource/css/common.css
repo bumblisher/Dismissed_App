@@ -2,7 +2,7 @@
 
 /* 메인 */
 
-.wrap{min-width: 360px;height: 100%;overflow: auto;margin: 0 auto;padding:36px 0 60px;box-sizing: border-box;}
+.wrap{min-width: 360px;margin: 0 auto;padding:36px 0 60px;box-sizing: border-box;}
 
 header{position: fixed;top:0;left:0;right:0;z-index: 100;display: flex;align-items: center;height: 36px;padding:0 20px;background: #fff;box-sizing: border-box;}
 header .header_inner{display: flex;align-items: center;width: 100%;}
@@ -18,7 +18,7 @@ header .rt .btn_cart{background: url(../images/ico_cart.svg) no-repeat center;fo
 
 section{box-sizing: border-box;}
 .sec_top_banner{padding: 16px 20px 8px;}
-.sec_top_menu{padding: 8px 20px;position: sticky;top:0;background: #F2F2F2;z-index: 50;}
+.sec_top_menu{padding: 8px 20px;position: sticky;top:36px;background: #F2F2F2;z-index: 50;}
 
 .wrap.main{padding-top: 78px;}
 .main header{background: #00CF9D;display: block;height: 78px;padding-top: 4px;}
