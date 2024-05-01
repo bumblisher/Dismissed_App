@@ -29,9 +29,9 @@ section{box-sizing: border-box;}
 .main header .lt h1 a { display: block;width: 29px;height: 27px; background: url(../images/logo.png) no-repeat center; font-size: 0;background-size: 29px;} 
 .main header .rt .btn_alarm{background: url(../images/ico_alarm_w.svg) no-repeat center;}
 .main header .rt .btn_cart{background: url(../images/ico_cart_w.svg) no-repeat center;}
+header .list_menu{margin: 0 -20px;padding:8px 20px}
 
 .main .main_top{padding: 10px 20px 56px;background: #00CF9D}
-.main .list_menu{margin: 0 -20px;padding:8px 20px}
 .main .list_menu li{border-color:transparent}
 .main .list_menu li.icon a{padding-left: 8px;}
 .main .list_menu li.icon a::before{content: '';width: 24px;height: 24px;display: inline-block;margin-right: 8px;opacity: 0.6;}
