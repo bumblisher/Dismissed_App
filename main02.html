@@ -45,12 +45,6 @@
 				<li><a href="#">임시메뉴</a></li>
 			</ul>
 		</section>
-		<script>
-			//sticky UI active 처리
-			const el = document.querySelectorAll('.sec_top_menu');
-			const observer = new IntersectionObserver( ([e]) => e.target.classList.toggle('stuck', e.intersectionRatio < 1),{ threshold: [1] });
-			el.forEach(element => observer.observe(element));
-		</script>
 		<section class="sec_product">
 			<div class="grp_tit verti sticky">
 				<div class="lt">
