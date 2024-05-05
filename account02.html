@@ -15,30 +15,52 @@
     <title>땡철이</title>
 </head>
 <body>
-    <div class="wrap">
-        <header class="bg_green">
+    <div class="wrap flex">
+        <header>
 			<div class="header_inner">
 				<div class="lt">
 					<a href="#" class="btn_back">뒤로가기</a>
 				</div>
-				<h2>마이땡</h2>
+				<h2>포인트 충전</h2>
 				<div class="rt">
-					<a href="#" class="btn_set">설정</a>
 				</div>
 			</div>
         </header>
-		<section class="sec_top_my">
-			<p>안녕하세요. 0455 님</p>
-			<p class="tit">마트페이</p>
-			<p class="balance">10,000원</p>
-			<button class="btn_cm pt2">충전하기</button>
-		</section>
-		<ul class="list_my">
-			<li><a href="#">공지사항</a></li>
-			<li><a href="#">푸시알림 설정</a></li>
-			<li><a href="#">자주 묻는 질문</a></li>
-			<li><a href="#">약관 및 정책</a></li>
-		</ul>
+		<div class="cont">
+			<div class="box_form">
+				<div class="grp_form">
+					<input type="text" placeholder="금액을 입력해주세요" class="big">
+				</div>
+				<div class="grp_won">
+					<button>1만원</button>
+					<button>2만원</button>
+					<button>3만원</button>
+					<button>4만원</button>
+				</div>
+			</div>
+			<ul class="list_point">
+				<li>
+					<div class="grp_flex">
+						<p class="tit">충전 후 포인트</p>
+						<p class="point">0원</p>
+					</div>
+				</li>
+				<li>
+					<div class="grp_flex">
+						<p class="tit">충전수단</p>
+					</div>
+					<div class="box_charge">
+						<div class="grp_empty">
+							<p>등록된 충전 수단이 없습니다.</p>
+							<button class="btn_cm pt">등록하기</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="box_btn">
+				<button class="btn_cm pt" disabled>충전하기</button>
+			</div>
+		</div>
 		<div class="nav">
 			<ul>
 				<li class="talk"><a href="#">동네수다</a></li>
