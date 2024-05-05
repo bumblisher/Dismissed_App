@@ -167,7 +167,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px}
 .wrap.login{padding: 160px 20px 80px;display: flex;height: 100%;;flex-direction: column;align-items: center;justify-content: center;}
 .wrap.login h1{background: url(../images/logo_big.svg) no-repeat center;font-size: 0;width: 168px;height: 51px;background-size: contain;}
 .wrap.login .txt{margin-top: 20px;font-size: 14px;}
-.wrap.login .btn_cm{margin-top: 56px;font-weight: 400;color:#333}
+.wrap.login .btn_cm{margin-top: 56px;font-weight: 450;color:#333}
 .wrap.login .tit{margin-top: 38px;position: relative;font-size: 14px;color:#828282;width: 100%;display: flex;align-items: center;justify-content: center;}
 .wrap.login .tit::before{content:'';border-top:1px solid #E0E0E0;width: calc(50% - 33px);margin-right: 8px;}
 .wrap.login .tit::after{content:'';border-top:1px solid #E0E0E0;width: calc(50% - 33px);margin-left: 8px;}
@@ -238,7 +238,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px}
 
 .sec_top_my{background: #00CF9D;padding:20px}
 .sec_top_my p{color:#fff;font-size: 18px;font-weight: 600;}
-.sec_top_my p.tit{font-size: 14px;font-weight: 400;margin-top: 45px;}
+.sec_top_my p.tit{font-size: 14px;font-weight: 450;margin-top: 45px;}
 .sec_top_my p.balance{position: relative;font-size: 28px;margin-top: 6px;}
 .sec_top_my p.balance::after{content: '';position: absolute;right:0;bottom:-20px;width: 119px;height: 80px;;background: url(../images/img_my.svg) no-repeat center;}
 .sec_top_my .btn_cm{margin-top: 16px;position: relative;z-index: 1;}
@@ -255,5 +255,15 @@ header .list_menu{margin: 0 -20px;padding:8px 20px}
 .list_point .grp_flex .point{margin-left: auto;}
 .list_point .grp_empty{margin: 0 auto;width: 290px;height: 160px;display: flex;flex-direction: column;align-items: center;justify-content: center;background: #F9F9F9;border:1px dashed #bdbdbd;border-radius: 4px;}
 .list_point .grp_empty p{font-size: 14px;}
-.list_point .grp_empty .btn_cm{width: 102px;height: 36px;font-size: 12px;font-weight: 400;}
+.list_point .grp_empty .btn_cm{width: 102px;height: 36px;font-size: 12px;font-weight: 450;}
 .list_point .grp_empty .btn_cm::before{content: '';width: 15px;height: 15px;display: inline-block;margin-right: 5px;background: url(../images/ico_point_plus.svg) no-repeat center;}
+
+.bottom_sheet{display: none;position: fixed;bottom: 0;left: 0;right: 0;min-height: 150px;background: #fff;border-radius: 20px 20px 0 0;padding: 20px;box-sizing: border-box; z-index: 300;}
+.bottom_sheet.on{display: flex;flex-direction: column;}
+.bottom_sheet.on ~ .dim{display: block;position: fixed;top:0;left: 0;right: 0;bottom: 0;background: rgba(0, 0, 0, 0.5);z-index: 200;}
+.bottom_sheet .grp_tit{flex:none;margin-bottom: 24px;}
+.bottom_sheet .grp_tit .tit{font-size: 16px;font-weight: 600;}
+.bottom_sheet .grp_tit .btn_close{width: 24px;height: 24px;margin-left: auto;background: url(../images/ico_close.svg) no-repeat center;}
+.bottom_sheet .sheet_cont{flex:1;}
+.bottom_sheet .sheet_cont > .btn_cm + .btn_cm{margin-top: 5px;}
+.bottom_sheet .btn_cm.sheet{color:#212121;font-weight: 450;}
