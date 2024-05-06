@@ -25,6 +25,7 @@ time, mark, audio, video, button, input, select, textarea {
 	-webkit-appearance:none; /* Safari and Chrome */
 	appearance:none;
 	color:#212121;
+	font-weight: 450;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

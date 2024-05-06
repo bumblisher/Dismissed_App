@@ -49,16 +49,47 @@
 					<div class="grp_flex">
 						<p class="tit">충전수단</p>
 					</div>
-					<div class="box_charge">
-						<div class="grp_empty">
-							<p>등록된 충전 수단이 없습니다.</p>
-							<button class="btn_cm pt">등록하기</button>
+					<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+					<div class="box_charge swiper swiper_charge">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="resource/images/bg_charge01.svg" alt="">
+								<div>
+									<p class="tit">토스뱅크</p>
+									<p>(880*)</p>	
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<img src="resource/images/bg_charge01.svg" alt="">
+								<div>
+									<p class="tit">토스뱅크</p>
+									<p>(880*)</p>	
+								</div>
+							</div>
+							<div class="swiper-slide grp_empty">
+								<p>등록된 충전 수단이 없습니다.</p>
+								<button class="btn_cm pt">등록하기</button>
+							</div>
 						</div>
+						<div class="swiper-pagination"></div>
 					</div>
+					<div class="swiper">
+					</div>
+					<script>
+						var swiper = new Swiper(".swiper_charge", {
+						slidesPerView: 'auto',
+						spaceBetween: 16,
+						centeredSlides: true,
+						pagination: {
+							el: ".swiper-pagination",
+							clickable: true,
+						},
+						});
+					</script>
 				</li>
 			</ul>
 			<div class="box_btn">
-				<button class="btn_cm pt" disabled>충전하기</button>
+				<button class="btn_cm pt">충전하기</button>
 			</div>
 		</div>
 		<div class="nav">
@@ -71,24 +102,6 @@
 			</ul>
 		</div>
     </div>
-	<div class="bottom_sheet on">
-		<div class="grp_tit">
-			<p class="tit">필수 약관에 동의해주세요</p>
-			<button class="btn_close"></button>
-		</div>
-		<div class="sheet_cont">
-			<div class="grp_chk">
-				<input type="checkbox" name="" id="chk01">
-				<label for="chk01"><span>[필수] 본인인증 서비스를 위한 개인정보 수집 및 이용 동의</span><a href="#">보기</a></label>
-			</div>
-			<div class="grp_chk">
-				<input type="checkbox" name="" id="chk02">
-				<label for="chk02"><span>[필수] 계좌 연결을 위한 개인정보 수집 및 이용동의</span><a href="#">보기</a></label>
-			</div>
-		</div>
-		<button class="btn_cm pt">확인</button>
-	</div>
-	<div class="dim"></div>
 </body>
 
 </html>
