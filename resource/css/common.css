@@ -209,6 +209,9 @@ header .list_menu{margin: 0 -20px;padding:8px 20px}
 .grp_form input:focus{border-color: #00CF9D;outline: none;}
 .grp_form input.error{border-color: #DC2832}
 .grp_form input.big{font-size: 18px;padding-top: 0;}
+.grp_form .tit{font-size: 14px;}
+.grp_form .tit + input{height: 42px;padding-top: 0;}
+
 .grp_form .txt_error{margin-top: 6px;color:#DC2832;font-size: 10px}
 .grp_form .btn_del{display: none;position: absolute;right:0;bottom:13px;width: 18px;height: 18px;background: url(../images/ico_del.svg) no-repeat center;}
 .grp_form .btn_del.on{display: block;}
@@ -289,6 +292,9 @@ header .list_menu{margin: 0 -20px;padding:8px 20px}
 .list_point .grp_empty .btn_cm{width: 102px;height: 36px;font-size: 12px;font-weight: 450;margin-top: 16px;}
 .list_point .grp_empty .btn_cm::before{content: '';width: 15px;height: 15px;display: inline-block;margin-right: 5px;background: url(../images/ico_point_plus.svg) no-repeat center;}
 
+.comp_point{font-size: 18px;font-weight: 600;text-align: center;}
+.comp_point::before{content: '';margin: 20px auto 14px;width: 60px;height: 60px;display: block;background: url(../images/ico_point_comp.svg) no-repeat center;}
+
 .swiper_charge{}
 .swiper_charge .swiper-wrapper{height: auto;}
 .swiper_charge .swiper-slide{position: relative;width: 290px;height: auto;}
@@ -306,12 +312,16 @@ header .list_menu{margin: 0 -20px;padding:8px 20px}
 
 .box_text{text-align: center;padding-top: 40px;}
 .box_text .tit{font-size: 18px;font-weight: 600;}
+.box_text .tit + .grp_dot{margin-top: 60px;}
 .box_text .txt{font-size: 14px;color:#828282;margin-top: 12px;}
+.box_text .txt.error{font-size: 10px;color:#DC2832;margin-top: 16px;}
+.box_text .txt.error + .grp_dot{margin-top: 20px;}
 .box_text .grp_dot{margin-top: 32px;display: flex;justify-content: center;align-items: center;gap: 16px;}
 .box_text .grp_dot span{display: inline-block;width: 16px;height: 16px;background: #e0e0e0;border-radius: 50%;}
 .box_text .grp_dot span.on{background-color: #212121;}
 .box_text .logo{margin:-60px auto 24px;display: block;}
 .box_text.center{padding-top: 0;display: flex;flex-direction: column;flex:1;justify-content: center;}
+.box_text .btn_link{margin-top: 32px;}
 
 .numpad{position: fixed;bottom: 0;left: 0;right: 0;display: grid;grid-template-columns: repeat(3,1fr);}
 .numpad button{height: 67px;background: #fff;font-size: 28px;}
