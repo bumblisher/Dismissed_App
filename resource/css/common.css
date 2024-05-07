@@ -227,7 +227,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px}
 
 .grp_flex{display: flex;align-items: center;}
 .grp_chk{display: flex;align-items: flex-start;}
-.grp_chk input[type='checkbox']{flex:none;width: 22px;height: 22px;display: inline-block;background: url(../images/ico_chk.png) no-repeat center;background-size: 22px;margin-right: 10px;appearance: none;}
+.grp_chk input[type='checkbox']{flex:none;width: 22px;height: 22px;display: inline-block;background: url(../images/ico_chk.svg) no-repeat center;margin-right: 10px;appearance: none;border-radius: 0;}
 .grp_chk input[type='checkbox']:checked{background: url(../images/ico_chk_on.svg) no-repeat center;}
 .grp_chk label{font-size: 14px;line-height: 18px;}
 .grp_chk label span{margin-right: 4px;}
