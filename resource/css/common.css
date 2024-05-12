@@ -5,14 +5,17 @@
 
 /* text */
 .head_2_semibold{font-size: 22px;font-weight: 600;line-height: 135%;letter-spacing:-0.2px;color:#000}
+.subtitle_regular{font-size: 18px;line-height: 130%;letter-spacing:-0.2px}
+.subtitle_semibold{font-size: 18px;font-weight: 600;line-height: 130%;letter-spacing:-0.2px;}
+.body_1_regular{font-size: 16px;line-height: 150%;letter-spacing:-0.2px}
+.body_2_regular{font-size: 14px;line-height: 150%;letter-spacing:-0.2px}
+.body_3_regular{font-size: 12px;line-height: 116%;letter-spacing:-0.2px}
+.Body_3_semibold{font-size: 12px;font-weight: 600;line-height: 116%;letter-spacing:-0.2px;}
 
-.subtitle_regular{font-size: 18px;line-height: 130%;letter-spacing:-0.2px;color:#212121;}
-.subtitle_semibold{font-size: 18px;font-weight: 600;line-height: 130%;letter-spacing:-0.2px;color:#212121;}
-
-.body_1_regular{font-size: 16px;line-height: 150%;letter-spacing:-0.2px;color:#4f4f4f;}
-.body_2_regular{font-size: 14px;line-height: 150%;letter-spacing:-0.2px;color:#4f4f4f;}
-
-
+strong{font-weight: 600;}
+.cl_gray{color:#828282}
+.cl_gray2{color:#4f4f4f}
+.cl_oragne{color:#F4744B}
 
 /* layout */
 .wrap{min-width: 360px;margin: 0 auto;padding:36px 0 20px;box-sizing: border-box;}
@@ -22,10 +25,10 @@
 .wrap .cont > .btn_cm{margin-top: 16px;}
 .wrap.flex{display: flex;flex-direction: column;height: 100%;box-sizing: border-box;}
 .wrap.flex > *{flex:none}
-.wrap.flex .cont{flex:1;display: flex;flex-direction: column;height: 100%;overflow: auto;}
+.wrap.flex .cont{flex:1;display: flex;flex-direction: column;height: 100%;overflow: auto;padding-bottom: 20px;}
 .wrap.flex .cont.oh{overflow: hidden;}
 .wrap.flex .cont > *{flex:none}
-.wrap.flex > .box_btn{padding:20px 20px 0}
+.wrap.flex > .box_btn{padding:0 20px}
 .wrap.flex > .box_btn:not(:last-child){margin-bottom: 60px;}
 
 header{position: fixed;top:0;left:0;right:0;z-index: 100;display: flex;align-items: center;height: 36px;padding:0 20px;background: #fff;box-sizing: border-box;}
@@ -151,6 +154,28 @@ section{box-sizing: border-box;}
 .list_addr li button{display: flex;align-items: center;justify-content: flex-start;width: 100%;height: 56px;padding: 0 16px;font-size: 16px;color:#212121;background: #fff;border-bottom: 1px solid #E0E0E0;}
 .list_addr li.on button{background: rgba(0, 207, 157, 0.20);}
 .list_addr li.on button::after{content:'';display: inline-block;width: 24px;height: 24px;background: url(../images/ico_addr_on.svg) no-repeat center;margin-left: auto;}
+
+.list_mymart{margin-top: 16px;}
+.list_mymart ul{margin: 8px -20px 0;overflow: auto;display: flex;align-items: flex-start;gap: 8px;padding: 0 20px 8px;}
+.list_mymart ul:empty::before{content: '하단 마트 목록 우측 +버튼을 눌러 추가해주세요';color:#828282;display: block;margin: 0 auto;}
+.list_mymart ul li{flex:none;padding: 6px 12px;height: 36px;display: flex;align-items: center;border-radius: 18px;background: rgba(0, 207, 157, 0.20);box-sizing: border-box;}
+.list_mymart ul li .btn_del{display: inline-block;width: 12px;height: 12px;margin-left: 4px;background: url(../images/ico_mymart_del.svg) no-repeat center;}
+
+.box_mymart{margin-top: 24px;}
+.box_mymart + .box_mymart{margin-top: 8px;}
+.box_mymart .top{display: flex;align-items: center;padding: 16px 0;border-bottom: 1px solid #E0E0E0;}
+.box_mymart .top img{display: inline-block;overflow: hidden;border-radius: 50%;width: 48px;height: 48px;margin-right: 10px;;}
+.box_mymart .top .btn_add{width: 32px;height: 32px;background: url(../images/ico_mart_add.svg) no-repeat center;margin-left: auto;}
+.box_mymart .top .btn_add.on{background: url(../images/ico_mart_add_on.svg) no-repeat center;}
+.box_mymart ul{margin: 16px -20px 0;overflow: auto;display: flex;align-items: flex-start;gap: 8px;padding: 0 20px 8px;}
+.box_mymart ul li a{display: block;text-decoration: none;overflow: hidden;width: 100px;}
+.box_mymart ul li a .grp_img{position: relative;width: 100px;height: 100px;overflow: hidden;border-radius: 4px;}
+.box_mymart ul li a .grp_img .badge{position: absolute;top:6px;left:0;background: #F4744B;border-radius: 0 10px 10px 0;padding:3px 5px 3px 3px;color:#fff;font-size: 12px;font-weight: 600;}
+.box_mymart ul li a .grp_img::before{content: '';position: absolute;top: 0;left: 0;right: 0;bottom: 0;background: rgba(0, 0, 0, 0.03);border-radius: 8px;}
+.box_mymart ul li a p span+span{margin-left: 6px;}
+.box_mymart ul li a .body_3_regular{overflow: hidden;text-overflow: ellipsis;margin-top: 10px;white-space: nowrap;}
+.box_mymart ul li a .body_3_regular + p{margin-top: 6px;}
+
 
 .main .main_top{padding: 10px 20px 56px;background: #00CF9D}
 .main .list_menu li{border-color:transparent}
