@@ -15,7 +15,7 @@
     <title>땡철이</title>
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrap flex">
         <header>
 			<div class="header_inner">
 				<div class="lt">
@@ -24,23 +24,26 @@
 			</div>
         </header>
 		<div class="cont">
-			<h3>휴대폰 번호 인증</h3>
-			<p class="h3_txt">사용하시는 휴대폰 번호를 입력하세요.</p>
+			<h2 class="head_2_semibold">추천인 정보</h2>
+			<p class="subtitle_regular">추천인 정보를 입력해야<br>
+				마트페이 이용이 가능하며<br>
+				마트페이 10,000포인트가 적립됩니다.</p>
 			<div class="box_form">
 				<div class="grp_form">
-					<input type="text" value="01012345678">
+					<p class="body_1_regular">*추천인 이름(필수)</p>
+					<input type="text" placeholder="이름을 입력해 주세요">
+					<p class="body_2_regular error">성함이 일치하지 않습니다.</p>
 				</div>
-				<button class="btn_cm" disabled>인증 메세지 보내기</button>
-			</div>
-			<div class="box_form">
 				<div class="grp_form">
-					<input type="text" value="4242" class="error">
-					<p class="txt_error">잘못된 형식의 번호입니다.</p>
+					<p class="body_1_regular">연락처 또는 추천 코드</p>
+					<input type="text" placeholder="추천인 연락처를 - 제외하고 입력해주세요">
 				</div>
-				<button class="btn_cm" disabled>인증하기</button>
-				<button class="btn_link pt">재전송 하기</button>
 			</div>
+		</div>
+		<div class="box_btn">
+			<button class="btn_cm pt" disabled>다음</button>
 		</div>
     </div>
 </body>
+
 </html>

@@ -15,7 +15,7 @@
     <title>땡철이</title>
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrap flex">
         <header>
 			<div class="header_inner">
 				<div class="lt">
@@ -24,23 +24,19 @@
 			</div>
         </header>
 		<div class="cont">
-			<h2 class="head_2_semibold">휴대폰 번호 인증</h2>
-			<p class="subtitle_regular">사용하시는 휴대폰 번호를 입력하세요.</p>
+			<h2 class="head_2_semibold">땡처리 정보를 알고싶은<br>
+				동네를 검색하세요.</h2>
 			<div class="box_form">
 				<div class="grp_form">
-					<p class="body_1_regular">이름</p>
-					<input type="text" placeholder="이름을 입력해 주세요" class="error">
-					<p class="body_2_regular error">성함이 일치하지 않습니다.</p>
-				</div>
-				<div class="grp_form">
-					<p class="body_1_regular">휴대폰 번호</p>
-					<input type="text" placeholder="휴대폰 번호 (-없이 숫자만 입력하세요.)">
-					<p class="body_2_regular error">잘못된 형식의 번호입니다.</p>
-				</div>
-				<div class="box_btn">
-					<button class="btn_cm pt" disabled>인증 메세지 보내기</button>
+					<div class="grp_sch">
+						<input type="text" placeholder="동네검색">
+						<button class="btn_sch"></button>
+					</div>
 				</div>
 			</div>
+		</div>
+		<div class="box_btn">
+			<button class="btn_cm pt" disabled>다음</button>
 		</div>
     </div>
 </body>
