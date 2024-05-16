@@ -169,6 +169,12 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 
 /* popup */
 .popup { display: none; width: 320px; position: fixed; left: 50%; top: 50%; background: #fff; z-index: 10001;box-shadow: 0px 4px 30px 10px rgba(0, 0, 0, 0.1); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);overflow: hidden; } 
+.popup .pop_header{display: flex; align-items: center;padding: 20px;}
+.popup .pop_header .tit{font-size: 16px;font-weight: 600;}
+.popup .pop_header .rt{margin-left: auto;display: flex;align-items: center;gap: 10px;}
+.popup .pop_header .btn_refresh{width: 24px;height: 24px;margin-left: auto;background: url(../images/ico_refresh.svg) no-repeat center;}
+.popup .pop_header .btn_close{width: 24px;height: 24px;margin-left: auto;background: url(../images/ico_close.svg) no-repeat center;}
+.popup .pop_header + .pop_cont{padding:0 20px 20px}
 .popup .pop_cont { overflow: auto; padding: 32px; box-sizing: border-box;} 
 .popup .pop_cont .body_1_regular{text-align:center;color:#212121}
 .popup .box_btn .btn_cm{border-radius: 0;border-width:1px 0 0;}
@@ -396,6 +402,9 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 
 .grp_won{display: flex;align-items: center;gap: 10px;margin-top: 15px;}
 .grp_won button{flex:1;height: 34px;border-radius: 4px;font-size: 14px;color:#828282}
+.grp_period{display: flex;align-items: center;gap: 8px;}
+.grp_period button{flex:1;height: 32px;border-radius: 8px;font-size: 14px;color:#4F4F4F;background:#fff;border:1px solid #E0E0E0}
+.grp_period button.on{border-color: #212121;}
 
 .list_point{margin: 56px -20px 0;}
 .list_point li + li .grp_flex{border-top: 1px solid #e0e0e0;}
