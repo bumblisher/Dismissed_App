@@ -299,7 +299,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .tab li a span{font-size: 16px;color:#828282;display: inline-block;padding: 19px 0;box-sizing: border-box;}
 .tab li.on a span{border-bottom: 2px solid #212121;color:#212121}
 
-.wrap.flex .cont > .tab_cont{flex:1;overflow: auto;box-sizing: border-box;margin: 0 -20px;}
+.wrap.flex .cont > .tab_cont{flex:1;overflow: auto;box-sizing: border-box;}
 
 .grp_won{display: flex;align-items: center;gap: 10px;margin-top: 15px;}
 .grp_won button{flex:1;height: 34px;border-radius: 4px;font-size: 14px;color:#828282}
@@ -307,9 +307,10 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .grp_period button{flex:1;height: 32px;border-radius: 8px;font-size: 14px;color:#4F4F4F;background:#fff;border:1px solid #E0E0E0}
 .grp_period button.on{border-color: #212121;}
 
-.set_period{display: flex;align-items: center;padding: 15px 20px;}
+.set_period{display: flex;align-items: center;padding: 15px 20px;margin: 0 -20px;}
 .set_period button{margin-left: auto;padding: 0 10px;height: 26px;border-radius: 4px;font-size: 14px;color:#4F4F4F;background:#fff;border:1px solid #E0E0E0}
-.total_num{font-size: 14px;font-weight: 600;line-height: 130%;margin-bottom: 8px;padding: 0 20px;}
+.total_num{font-size: 14px;font-weight: 600;line-height: 130%;margin-bottom: 8px;}
+.list_pd_history{margin: 0 -20px;}
 .list_pd_history li + li{border-top: 1px solid #e0e0e0;}
 .list_pd_history li a{display: block;padding: 16px 16px 0;text-decoration: none;}
 .list_pd_history li a .date{font-size: 14px;color:#828282;background: url(../images/ico_btn_link.svg) no-repeat center right;}
