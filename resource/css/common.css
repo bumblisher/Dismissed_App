@@ -299,7 +299,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .tab li a span{font-size: 16px;color:#828282;display: inline-block;padding: 19px 0;box-sizing: border-box;}
 .tab li.on a span{border-bottom: 2px solid #212121;color:#212121}
 
-.wrap.flex .cont > .tab_cont{flex:1;overflow: auto;box-sizing: border-box;}
+/* .wrap.flex .cont > .tab_cont{flex:1;overflow: auto;box-sizing: border-box;} */
 
 .grp_won{display: flex;align-items: center;gap: 10px;margin-top: 15px;}
 .grp_won button{flex:1;height: 34px;border-radius: 4px;font-size: 14px;color:#828282}
