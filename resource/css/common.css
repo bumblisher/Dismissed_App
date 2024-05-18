@@ -85,6 +85,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .header_main.type2{height: 100px;background: #fff;padding: 14px 0 0;display: block;}
 .header_main.type2 .grp_header ul li a span{color:#212121}
 .header_main.type2 .grp_header ul li.on a span{border-bottom-color:#212121;}
+.header_main.type2:has(.tab_main){height: 120px;}
 
 .nav{position: fixed;bottom: 0;left:0;right:0;height: 58px;border-top:1px solid #E0E0E0;background: #fff;z-index: 99;}
 .nav ul{display: flex;align-items: center;height: 100%;}
@@ -206,6 +207,9 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .bottom_sheet .sheet_cont > .btn_cm + .btn_cm{margin-top: 5px;}
 .bottom_sheet .btn_cm.sheet{color:#212121;font-weight: 450;}
 .bottom_sheet > .btn_cm{margin-top: 24px;}
+
+.alert{position: fixed;bottom: 80px;left: 50%;margin-left: -160px;display: flex;align-items: center;justify-content: center;width: 320px;height: 40px;border-radius: 4px;background: rgba(33, 33, 33, 0.90);z-index: 1000;}
+.alert .txt{font-size: 16px;color:#fff}
 
 /* modual */
 .grp_tit{display: flex;align-items: center;}
@@ -367,7 +371,23 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .main_mart > div a{display: flex;align-items: center;justify-content: center;width: 100%;height: 40px;border-radius: 4px;color:#000;background: #fff;margin-top: 16px;font-size: 14px;text-decoration: none;}
 .main_mart > div a::after{content: '';width: 16px;height: 16px;display: inline-block;background: url(../images/ico_btn_swiper.svg) no-repeat center;margin-left: 4px;}
 
+.txt_info{padding: 12px 16px;background: #F2F2F2;border-radius: 4px;}
+.txt_info p{color: #4f4f4f;line-height: 136%;}
 
+.box_coupon{margin: 32px -20px 0;padding: 0 20px;}
+.box_coupon ul{margin-top: 8px;}
+.box_coupon ul li{display: flex;overflow: hidden;height: 100px;}
+.box_coupon ul li + li{margin-top: 14px;}
+.box_coupon ul li .info{position: relative;flex:1;display: flex;align-items: center;padding: 0 16px;border:1px solid #D9D9D9;border-right: 0;border-radius: 8px;}
+.box_coupon ul li .info::before{content: '';position: absolute;top:-10px;right: -10px;width: 18px;height: 18px;border-radius: 50%;border:1px solid #d9d9d9;background: #fff;z-index: 10;}
+.box_coupon ul li .info::after{content: '';position: absolute;bottom:-10px;right: -10px;width: 18px;height: 18px;border-radius: 50%;border:1px solid #d9d9d9;background: #fff;z-index: 10;}
+.box_coupon ul li .info img{margin-right: 8px;}
+.box_coupon ul li .info .tit{font-size: 13px;line-height: 130%;}
+.box_coupon ul li .info .percent{font-size: 18px;font-weight: 600;line-height: 150%;}
+.box_coupon ul li .info .sub{font-size: 12px;margin-top: 4px;color:#828282}
+.box_coupon ul li .btn_coupon{flex:none;width: 80px;border:1px solid #D9D9D9;border-radius: 8px;border-left: 1px dashed #E0E0E0;background: #f2f2f2;font-size: 14px;}
+.box_coupon ul li .btn_coupon::before{content: '';display: block;width: 13px;height: 16px;background: url(../images/ico_down.svg) no-repeat center;margin: 0 auto 8px;}
+.box_coupon + .box_coupon {margin-top: 24px;border-top: 1px solid #E0E0E0;padding-top: 24px;}
 
 .main .main_top{padding: 10px 20px 56px;background: #00CF9D}
 .main .list_menu li{border-color:transparent}
