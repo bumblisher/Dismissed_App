@@ -137,7 +137,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .btn_link::after{content: '';width: 16px;height: 16px;display: inline-block;background: url(../images/ico_btn_link.svg) no-repeat center ;}
 .btn_cm.add::before{content: '';width: 18px;height: 18px;display: inline-block;margin-right: 5px;background: url(../images/ico_point_plus.svg) no-repeat center;}
 .btn_cm.pt.add::before{content: '';background: url(../images/ico_point_plus_pt.svg) no-repeat center;background-size: contain;}
-.btn_small{padding: 0 8px;height: 26px;border-radius: 4px;font-size: 14px;color:#4F4F4F;background:#fff;border:1px solid #E0E0E0}
+.btn_small{padding: 0 10px;height: 26px;border-radius: 4px;font-size: 14px;color:#4F4F4F;background:#fff;border:1px solid #E0E0E0}
 
 .box_btn{margin-top: auto;display: flex;align-items: center;gap: 8px;}
 .cont .box_btn{margin-top: 24px;}
