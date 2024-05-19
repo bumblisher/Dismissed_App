@@ -506,7 +506,7 @@ header.bg_green .lt .btn_back{background: url(../images/ico_back_w.svg) no-repea
 .sec_detail{padding: 20px;}
 .sec_detail .btn_link{margin-bottom: 12px;}
 .sec_detail .name{font-size: 18px;line-height: 150%;text-overflow: ellipsis;overflow: hidden;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;}
-.sec_detail .grp_price{display: flex;align-items: flex-end;margin-top: 10px;}
+.sec_detail .grp_price{display: flex;align-items: center;margin-top: 10px;}
 .sec_detail .grp_price p{font-size: 22px;font-weight: 600;}
 .sec_detail .grp_price .percent{color:#F97327;margin-right: 6px;}
 .sec_detail .grp_price .rg_price{font-size: 16px;color:#828282;margin-left: 3px;text-decoration: line-through;}
