@@ -157,6 +157,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .grp_form {position: relative;}
 .grp_form > .body_1_regular{margin-bottom: 6px;}
 .grp_form > .body_1_regular + .body_2_regular{margin-bottom: 16px;}
+.grp_form + .grp_chk{margin-top: 12px;}
 .grp_form input{border: 1px solid #E0E0E0;width: 100%;height: 60px;padding: 0 16px;font-size: 16px;appearance: none;border-radius: 4px;}
 .grp_form input::placeholder{color:#828282}
 .grp_form input:focus{border-color: #00CF9D;outline: none;}
@@ -231,8 +232,8 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .bottom_sheet .btn_cm.sheet{color:#212121;font-weight: 450;}
 .bottom_sheet > .btn_cm{margin-top: 24px;}
 
-.alert{position: fixed;bottom: 80px;left: 50%;margin-left: -160px;display: flex;align-items: center;justify-content: center;width: 320px;height: 40px;border-radius: 4px;background: rgba(33, 33, 33, 0.90);z-index: 1000;}
-.alert .txt{font-size: 16px;color:#fff}
+.alert{position: fixed;bottom: 100px;left: 50%;margin-left: -160px;display: flex;align-items: center;justify-content: center;width: 320px;height: 40px;border-radius: 4px;background: rgba(33, 33, 33, 0.90);z-index: 1000;}
+.alert .txt{font-size: 14px;color:#fff}
 .alert .grp_link{display: flex;align-items: center;padding: 0 16px;width: 100%;}
 .alert .grp_link img{width: 24px;height: 24px;margin-right: 8px;flex:none}
 .alert .grp_link p{font-size: 14px;color:#fff;flex:1;}
@@ -593,6 +594,7 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .list_dl li span.black{color:#212121}
 .list_dl li > span+*{margin-left: auto;}
 .list_dl li span.tit{font-size: 18px;}
+.list_dl li span.error{font-size: 14px;color:#DC2832}
 .list_dl.type2 li{flex-direction: column;}
 .list_dl.type2 li span{width: 100%;display: block;}
 .list_dl.type2 li span + span{margin-top: 6px;}
@@ -620,6 +622,12 @@ header .list_menu{margin: 0 -20px;padding:8px 20px} */
 .box_upload.active > *{flex:none;width: 74px;height: 74px;position: relative;}
 .box_upload.active > * img{width: 100%;height: 100%;}
 .box_upload.active .btn_del{position: absolute;display: block;right:-4px;top:-4px;width: 20px;height: 20px;background: url(../images/ico_del_black.svg) no-repeat center;}
+
+.chk_addr li{padding: 16px 0;border-bottom: 1px solid #e9e9e9;}
+.chk_addr li .grp_chk label{font-size: 14px;font-weight: 600;}
+.chk_addr li .grp_chk label .badge{padding: 2px 8px;border-radius: 4px;font-size: 14px;background: #F2F2F2;margin-left: 8px;}
+.chk_addr li .sub{padding-left: 30px;font-size: 14px;margin-top: 4px;}
+.chk_addr li .grp_btn{margin-top: 16px;display: flex;align-items: center;gap: 8px;padding-left: 30px;}
 
 /* 
 .main .main_top{padding: 10px 20px 56px;background: #00CF9D}
