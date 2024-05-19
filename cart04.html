@@ -1,0 +1,125 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="resource/css/reset.css">
+    <link rel="stylesheet" href="resource/css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="resource/js/main.js"></script>
+    <title>땡철이</title>
+</head>
+<body>
+    <div class="wrap flex">
+        <header>
+			<div class="header_inner">
+				<div class="lt">
+					<a href="#" class="btn_back">뒤로가기</a>
+				</div>
+				<h2>주문하기</h2>
+				<div class="rt">
+				</div>
+			</div>
+        </header>
+		<div class="cont">
+			<section class="sec_info">
+				<div class="grp_tit">
+					<p class="tit">상품 수령 방법<span>배달</span></p>
+				</div>
+			</section>
+			<section class="sec_info">
+				<div class="grp_tit">
+					<p class="tit">배달 시간</p>
+				</div>
+				<div class="grp_form">
+					<select name="" id="">
+						<option value="">배달 시간 선택</option>
+						<option value="">배달 시간 선택</option>
+					</select>
+				</div>
+			</section>
+			<section class="sec_info">
+				<div class="grp_tit">
+					<p class="tit">배달지 정보</p>
+				</div>
+				<ul class="list_dl">
+					<li><span class="black tit">서울시 마포구 홍익로</span><button class="btn_small">수정</button></li>
+					<li><span>100-4 3층</span></li>
+					<li><span>010-1234-1234</span></li>
+				</ul>
+				<div class="grp_tit">
+					<p class="tit">배달 요청 사항</p>
+				</div>
+				<div class="grp_form">
+					<select name="" id="">
+						<option value="">배달 요청 사항 선택</option>
+						<option value="">배달 요청 사항 선택</option>
+					</select>
+				</div>
+				<div class="grp_form" style="margin-top: 8px;">
+					<input type="text" disabled value="안녕하세요~">
+				</div>
+			</section>
+			<section class="sec_info">
+				<div class="grp_tit">
+					<p class="tit">상품 재고 없을 때</p>
+				</div>
+				<div class="grp_radio"><input type="radio" id="radio01" checked name="radio01"><label for="radio01" class="">전체 주문 취소</label></div>
+				<div class="grp_radio"><input type="radio" id="radio02" name="radio01"><label for="radio02" class="">품절 상품 부분 주문 취소</label></div>
+			</section>
+			<section class="sec_info">
+				<div class="grp_tit">
+					<p class="tit">결제수단</p>
+				</div>
+				<div class="grp_radio">
+					<input type="radio" id="radio03" checked><label for="radio03" class="">마트 페이 포인트 결제<span class="pt">추가 포인트 1%</span></label>
+				</div>
+				<ul class="list_dl">
+					<li><span>포인트 잔액</span><span class="black bold">0 원</span></li>
+					<li><span>자동 충전</span><span class="black bold">+10,000 원</span></li>
+				</ul>
+				<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+				<div class="box_charge swiper swiper_charge">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="resource/images/bg_charge01.svg" alt="">
+							<div>
+								<p class="tit">토스뱅크</p>
+								<p>(880*)</p>	
+							</div>
+						</div>
+						<div class="swiper-slide grp_empty">
+							<p>등록된 충전 수단이 없습니다.</p>
+							<button class="btn_cm pt">등록하기</button>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="swiper">
+				</div>
+				<script>
+					var swiper = new Swiper(".swiper_charge", {
+					slidesPerView: 'auto',
+					spaceBetween: 16,
+					centeredSlides: true,
+					pagination: {
+						el: ".swiper-pagination",
+						clickable: true,
+					},
+					});
+				</script>
+			</section>
+		</div>
+		<div class="box_btn shadow verti">
+			<div class="grp_total"><span>총3건 주문 금액</span><span class="num">6,000 원</span></div>
+			<button class="btn_cm type2 pt">배달 주문하기</button>
+		</div>
+    </div>
+</body>
+
+</html>
