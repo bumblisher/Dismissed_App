@@ -9,6 +9,7 @@
 .subtitle_semibold{font-size: 18px;font-weight: 600;line-height: 130%;letter-spacing:-0.2px;}
 .body_1_regular{font-size: 16px;line-height: 150%;letter-spacing:-0.2px}
 .body_2_regular{font-size: 14px;line-height: 150%;letter-spacing:-0.2px}
+.body2_semibold{font-size: 14px;font-weight: 600;line-height: 150%;letter-spacing:-0.2px}
 .body_3_regular{font-size: 12px;line-height: 116%;letter-spacing:-0.2px}
 .Body_3_semibold{font-size: 12px;font-weight: 600;line-height: 116%;letter-spacing:-0.2px;}
 
@@ -335,6 +336,7 @@ header.bg_green .lt .btn_back{background: url(../images/ico_back_w.svg) no-repea
 .tab li a{display: flex;align-items: center;justify-content: center;height: 60px;text-decoration: none;}
 .tab li a span{font-size: 16px;color:#828282;display: inline-block;padding: 19px 0;box-sizing: border-box;}
 .tab li.on a span{border-bottom: 2px solid #212121;color:#212121}
+.wrap .cont.line .tab{margin: 0;}
 
 .grp_won{display: flex;align-items: center;gap: 10px;margin-top: 15px;}
 .grp_won button{flex:1;height: 34px;border-radius: 4px;font-size: 14px;color:#828282}
@@ -642,3 +644,19 @@ header.bg_green .lt .btn_back{background: url(../images/ico_back_w.svg) no-repea
 .list_charge li .sub{font-size: 16px;font-weight: 400;margin-top: 2px;}
 .list_charge li + li{padding-top: 16px;}
 .list_charge li > button{width: 30px;height: 30px;background: url(../images/ico_dot.svg) no-repeat center;}
+
+.sec_event{padding: 24px 20px;}
+.sec_event .subtitle_semibold{text-align: center;margin-bottom: 8px;}
+.sec_event .txt_info p{text-align: center;}
+.sec_event .box_btn{margin: 24px 0;}
+.sec_event .body_1_regular{text-align: center;margin-top: 24px;}
+
+.list_acco .acco_tit{padding: 12px 32px 12px 20px;width: 100%;text-align: left;background: #fff url(../images/ico_acco.svg) no-repeat center right 4px;border-bottom: 1px solid #E0E0E0;}
+.list_acco .acco_tit p{font-size: 16px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.list_acco .acco_tit p.cl_gray{font-size: 14px;margin-bottom: 4px;}
+.list_acco .acco_tit.on{background: #fff url(../images/ico_acco_on.svg) no-repeat center right 4px;}
+.list_acco .acco_cont{padding: 16px 20px;background: #F2F2F2;display: none;}
+
+.sec_agree{padding: 24px 20px;}
+.sec_agree .body2_semibold{margin-top: 24px;}
+.sec_agree .subtitle_semibold + .body2_semibold{margin-top: 16px;}
