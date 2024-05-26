@@ -105,7 +105,7 @@ header.bg_green .lt .btn_back{background: url(../images/ico_back_w.svg) no-repea
 
 /* login */
 .wrap.login{padding: 160px 20px 80px;display: flex;height: 100%;flex-direction: column;align-items: center;justify-content: center;}
-.wrap.login h1{background: url(../images/logo_big.svg) no-repeat center;font-size: 0;width: 168px;height: 51px;background-size: contain;}
+.wrap.login h1{background: url(../images/logo_big.svg) no-repeat center;font-size: 0;width: 183px;height: 55px;background-size: contain;}
 .wrap.login h1 + .body_1_regular{margin-top: 20px;}
 .wrap.login .btn_cm{margin-top: 30px;}
 .wrap.login .subtitle_semibold{margin-top:42px;position: relative;width: 100%;display: flex;align-items: center;justify-content: center;}
@@ -137,6 +137,8 @@ header.bg_green .lt .btn_back{background: url(../images/ico_back_w.svg) no-repea
 .btn_cm.pt.add::before{content: '';background: url(../images/ico_point_plus_pt.svg) no-repeat center;background-size: contain;}
 .btn_small{padding: 0 10px;height: 26px;border-radius: 4px;font-size: 14px;color:#4F4F4F;background:#fff;border:1px solid #E0E0E0}
 .btn_small.pt{background: #00CF9D;color:#fff;border-color: #00CF9D;}
+.btn_addr{width: 100%;display: flex;align-items: center;justify-content: center;height:40px;border:1px dashed #BDBDBD;font-size: 16px;background: #fff;color:#828282;box-sizing: border-box;border-radius: 4px;}
+.btn_addr::before{content: '';width: 15px;height: 15px;display: inline-block;margin-right: 5px;background: url(../images/ico_point_plus.svg) no-repeat center;background-size: contain;}
 
 .box_btn{margin-top: auto;display: flex;align-items: center;gap: 8px;}
 .cont .box_btn{margin-top: 24px;}
@@ -163,8 +165,9 @@ header.bg_green .lt .btn_back{background: url(../images/ico_back_w.svg) no-repea
 .grp_form select:focus{border-color: #00CF9D;outline: none;}
 .grp_form select.kakao{padding-left: 48px;background: url(../images/ico_select.svg) no-repeat center right 16px, url(../images/logo_bank02.svg) no-repeat 12px center;}
 .grp_form textarea{border: 1px solid #E0E0E0;width: 100%;height: 60px;padding: 12px 16px;font-size: 16px;appearance: none;border-radius: 4px;}
-.grp_form .btn_del{display: none;position: absolute;right:0;bottom:13px;width: 18px;height: 18px;background: url(../images/ico_del.svg) no-repeat center;}
+.grp_form .btn_del{display: none;position: absolute;right: 16px;top: 50%;margin-top: -9px;width: 18px;height: 18px;background: url(../images/ico_del.svg) no-repeat center;}
 .grp_form .btn_del.on{display: block;}
+.grp_form .btn_del + input{padding-right: 40px;}
 .grp_form + .grp_form{margin-top: 16px;}
 .grp_form.txt .tit{font-size: 16px;line-height: 24px;color:#212121;font-weight: 600;margin-bottom: 6px;}
 .grp_form.txt p{font-size: 14px;line-height: 18px;color:#828282}
@@ -616,11 +619,14 @@ header.bg_green .lt .btn_back{background: url(../images/ico_back_w.svg) no-repea
 .box_upload.active > * img{width: 100%;height: 100%;}
 .box_upload.active .btn_del{position: absolute;display: block;right:-4px;top:-4px;width: 20px;height: 20px;background: url(../images/ico_del_black.svg) no-repeat center;}
 
-.chk_addr li{padding: 16px 0;border-bottom: 1px solid #e9e9e9;}
-.chk_addr li .grp_chk label{font-size: 14px;font-weight: 600;}
-.chk_addr li .grp_chk label .badge{padding: 2px 8px;border-radius: 4px;font-size: 14px;background: #F2F2F2;margin-left: 8px;}
-.chk_addr li .sub{padding-left: 30px;font-size: 14px;margin-top: 4px;}
-.chk_addr li .grp_btn{margin-top: 16px;display: flex;align-items: center;gap: 8px;padding-left: 30px;}
+.chk_addr li{padding: 16px 0;border-bottom: 1px solid #e9e9e9;margin-top: 16px;}
+/* .chk_addr li .grp_chk label{font-size: 14px;font-weight: 600;}
+.chk_addr li .grp_chk label .badge{padding: 2px 8px;border-radius: 4px;font-size: 14px;background: #F2F2F2;margin-left: 8px;} */
+.chk_addr li .txt_addr{font-size: 14px;font-weight: 600;}
+.chk_addr li .txt_addr .badge{padding: 2px 8px;border-radius: 4px;font-size: 14px;background: #F2F2F2;margin-left: 8px;}
+.chk_addr li .sub{font-size: 14px;margin-top: 4px;}
+.chk_addr li .grp_btn{margin-top: 16px;display: flex;align-items: center;gap: 8px;}
+.chk_addr li .grp_btn .rt{margin-left: auto;}
 
 .grp_myinfo{display: flex;align-items: center;padding: 16px 20px;border-bottom: 8px solid #e9e9e9;}
 .grp_myinfo p{font-size: 18px;font-weight: 600;margin-left: 10px;}
@@ -662,3 +668,6 @@ header.bg_green .lt .btn_back{background: url(../images/ico_back_w.svg) no-repea
 .sec_agree{padding: 24px 20px;}
 .sec_agree .body2_semibold{margin-top: 24px;}
 .sec_agree .subtitle_semibold + .body2_semibold{margin-top: 16px;}
+
+.comp_point{font-size: 18px;font-weight: 600;text-align: center;}
+.comp_point::before{content: '';margin: 20px auto 14px;width: 60px;height: 60px;display: block;background: url(../images/ico_point_comp.svg) no-repeat center;}
